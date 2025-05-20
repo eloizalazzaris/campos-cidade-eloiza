@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade do café</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="mobile-nav" onclick="showTabs()">
+            <a href="#" id="tab">tab</a>
+            <nav class="topnav">
+            <div id="links">
+              <a href="index.html">Página Inicial</a>
+              <a href="history.html" class="active">De onde vem?</a>
+              <a href="products.html" class="item-menu">Produtos Locais</a>
+              <a href="inovation.html" class="item-menu">Inovação</a>
+
+
+              <div>
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <label for="change-theme">
+                  <i class="bi bi-sun"></i>
+                  <i class="bi bi-moon"></i>
+                </label>
+              </div>
+            </div>
+          </nav>
+            <a href="javascript:void(0);" class="icon">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+
+    <main>
+      <h1 class="anim-h1">De onde vem?</h1>
+        <article>
+            <h2>Explicação</h2>
+            <p>Muitos alimentos que consumimos diariamente, como arroz, feijão, leite, frutas e hortaliças, vêm diretamente do campo. Esta seção explica como esses produtos são cultivados, colhidos, armazenados e transportados até os mercados e feiras das cidades.</p>
+            
+            <h2>A Origem dos Alimentos em Toledo e Região</h2>
+            <p>Toledo, localizada no Oeste do Paraná, é reconhecida como a Capital Paranaense do Agronegócio. Pelo 11º ano consecutivo, lidera o ranking estadual do Valor Bruto da Produção Agropecuária (VBP), com destaque nas cadeias produtivas de suínos, frangos, milho e soja . <strong>21</strong> milhões de sacas de café de <strong>60</strong> kg cada! Segundo a <a href="https://www.aen.pr.gov.br/Noticia/Parana-pode-produzir-ate-750-mil-sacas-de-cafe-em-172-municipios-em-2024-aponta-boletim#:~:text=A%20safra%20paranaense%20de%20café,ao%20produzido%20na%20safra%20anterior." target="_blank"><strong>AEN PR</strong></a>, a safra paranaense de café para o ano de 2024 está projetada para arrecadar entre <strong>700</strong> e <strong>750</strong> mil sacas. 
+            </p>
+            <h3>A Jornada dos Alimentos</h3>
+                <p>Arroz e Feijão: Embora Toledo não seja o principal produtor desses grãos no Paraná, a cidade integra a cadeia de distribuição, recebendo e comercializando esses alimentos essenciais.</p>              
+                  <p>Leite: A região Oeste do Paraná, incluindo Toledo, destaca-se na produção de leite, com o município contribuindo significativamente para o volume estadual.</p>                
+                  <p>Frutas e Hortaliças: A produção local abastece feiras e mercados, promovendo o consumo de alimentos frescos e saudáveis. </p>
+               <img src="images/2612_agronegocio72940.jpg" alt="Trilha de um cafezal, com fila de cafeeiras dos ambos lados com pessoas ao fundo" id="plantations">
+           <h3>Feiras e Mercados: Pontes entre Produtores e Consumidores</h3>
+            <p>
+              Toledo conta com a Feira do Produtor Rural, onde agricultores locais comercializam diretamente seus produtos, fortalecendo a economia local e promovendo o consumo consciente
+            </p>
+            <h3>Depoimentos de Produtores Rurais de Toledo (PR)</h3>
+            <p>Carlos Stuany – Piscicultor em Toledo –
+              "Nos cinco alqueires de terra que recebi como herança, apostei na piscicultura como base de sustento para a família. Em 2020, fui reconhecido com o prêmio 'Orgulho da Terra' pela qualidade do meu trabalho."</p>
+            <p>Produtores de Grãos e Suínos – Toledo –
+              "Produzimos grãos e também trabalhamos com granja. Dessa forma, conseguimos ter mais rentabilidade. Soja e milho produzidos na propriedade da família são quase todos consumidos na granja. Normalmente, a produção de suínos proporciona mais lucros do que a produção da oleaginosa."</p>
+            <p>Leandro Leonardi – Produtor Rural de Toledo –
+              "Sou produtor rural de Toledo, no Oeste do Paraná. Acompanho sempre que posso os programas sobre agronegócio, pois é importante estar informado sobre as políticas que afetam nossa produção."</p>
+        </article>
+    </main>
+
+    <footer>
+      <button id="scroll-to-top" class="btn-scroll-to-top">
+        <i class="bi bi-arrow-up"></i>
+      </button>
+      <div class="midia">
+        <h3><strong>SIGA-NOS</strong></h3>
+        <a href="https://github.com/dev-pedro7" target="_blank">
+          <i class="bi bi-github" id="github-ico"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-toaldo-0000p/" target="_blank">
+          <i class="bi bi-linkedin" id="linkedin-ico"></i>
+        </a>
+        <a href="https://www.instagram.com/colegiogori/" target="_blank">
+          <i class="bi bi-instagram" id="insta-ico"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Cidade do Café. Todos os direitos reservados.</p>
+    </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

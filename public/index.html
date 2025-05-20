@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a conexão campo cidade</title>
+    <link rel="shortcut icon" href="images/exodo-rural.webp" type="img-drone">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="mobile-nav" onclick="showTabs()">
+            <a href="#" id="tab">tab</a>
+            <nav class="topnav">
+            <div id="links">
+              <a href="index.html" class="active" >Página Inicial</a>
+              <a href="history.html" class="item-menu">Nossa História</a>
+              <a href="products.html" class="item-menu">Produtos Locais</a>
+              <a href="inovation.html" class="item-menu">Inovação</a>
+             
+              <div>
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <label for="change-theme">
+                  <i class="bi bi-sun"></i>
+                  <i class="bi bi-moon"></i>
+                </label>
+              </div>
+            </div>
+          </nav>
+            <a href="javascript:void(0);" class="icon">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+
+    <main>
+      <h1 class="anim-h1">Conexão campo cidade☕</h1>
+        <section class="main-container">
+          <div class="img-home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><img src="images/download (3).jpeg" alt="Cafeeira com grãos de café na fazenda Bela Esperança" class="hidden-img">
+          </section>
+          
+        </div>
+        <section class="img-p-container">
+          <div id="img-sec" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100"><img src="images/download (2).jpeg" alt="Filas de cafeeiras ao horizonte com um pequeno redemoinho de terra ao fundo na fazenda Bela Esperança" class="hidden-img"></div>
+            <p data-aos="fade" data-aos-duration="3000" data-aos-delay="200"> Um local de fascinantes tradições cafeeiras que continuam a ser eternizadas. <br><br>
+              <a href="history.html"class="button"  data-aos="fade" data-aos-duration="3000" data-aos-delay="300" >NOSSA HISTÓRIA</a>
+            </p>
+          
+        </section>
+        <section class="img-p">
+          <div id="img-ter" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" ><img src="images/download (4).jpeg" alt="Grãos de café de diferentes cores na fazenda Bela Esperança" class="hidden-img"></div>
+          <p data-aos="fade" data-aos-duration="3000" data-aos-delay="200" ><br>Com uma história rica em produção de café, destacando nacionalmente na qualidade de seus grãos.<br> <br>
+            <a href="products.html" class="button" data-aos="fade" data-aos-duration="3000" data-aos-delay="300">PRODUTOS LOCAIS</a>
+          </p>            
+        </section>
+        
+        <section class="main-container" style="display: flex; flex-direction: column; align-items: center;">
+          <h1 class="anim-h1" id="anim-h1" style="color: #779642;">Conheça o futuro da Agricultura🌿</h1>
+          <div id="img-drone">
+            <img src="images/img-drone.jpg" alt="Enorme drone de pulverização em cima de uma plataforma na expo cocari 2024" class="hidden-img">
+            <div class="img-p-container"></div>
+            <div><a href="inovation.html" class="button" id="button-image">INOVAÇÕES NOS CAMPOS</a></div>
+          </div>
+        </section>
+        
+        <section class="center-container">
+          <button class="modal-button" role="button" onclick="openModal()">Curiosidades sobre o campo e cidade <img width="30" height="30" src="images/ilustra-o-de-silhueta-de-trator-desenhada_23-2151205342.avif" alt="desenho de trator"/></button>
+          
+          <div class="modal-window" id="modal-window">
+            <div class="modal">
+              <button class="close" id="close">X</button>
+              
+              <ul class="list">
+                <li >🥦 A maior parte da comida da cidade vem do campo
+                <li >
+                  🛒 A renda do campo vem principalmente da cidade
+                </li>
+                <li >
+                  🏢 A cidade transforma e distribui produtos do campo
+                </li>
+                <li >
+                  🧑‍⚕️ Moradores do campo vão à cidade buscar serviços
+                </li>
+                <li >
+                  🚚 Tudo que é consumido na cidade passou por mãos rurais
+                </li>
+                <li >
+                  📈 O campo ajusta sua produção às tendências urbanas
+                </li>              
+                <li >
+                  🛒 A logística alimentar depende de planejamento rural
+                </li>
+
+                <li>
+                  📦 Empreendedores do campo vendem direto para a cidade
+
+                </li>
+              </ul>
+              <p>Fonte:<a href="https://www.embrapa.br"><strong><i>Embrapa</i></strong></a></p>
+            </div>
+          </div>
+        </section>
+        
+    </main>
+
+    <footer>
+      <button id="scroll-to-top" class="btn-scroll-to-top">
+        <i class="bi bi-arrow-up"></i>
+      </button>
+      <div class="midia">
+        <h3><strong>SIGA-NOS</strong></h3>
+        <a href="https://github.com/dev-pedro7" target="_blank">
+          <i class="bi bi-github" id="github-ico"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-toaldo-0000p/" target="_blank">
+          <i class="bi bi-linkedin" id="linkedin-ico"></i>
+        </a>
+        <a href="https://www.instagram.com/colegiogori/" target="_blank">
+          <i class="bi bi-instagram" id="insta-ico"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Cidade do Café. Todos os direitos reservados.</p>
+    </footer>
+    
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
