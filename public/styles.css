@@ -58,30 +58,23 @@ a {
     padding: 0;
 }
 
-.img-home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/img-home.jpg);
+.img-home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/WhatsApp\ Image\ 2025-05-27\ at\ 10.26.51.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    max-width: 2500px;
-    max-height: 2000px;
-    height: 70%;
+    max-width: 1000px;
+    max-height: 700px;
+    height: 1000%;
     width: 94%;
     color: var(--thirdTextColor);
     display: flex;
     align-items: flex-start;
-    margin-right: 13px;
-    border-radius: 6px;
+    margin-right: 30px;
+    border-radius: 30px;
 }
 
-.img-home > p {
-    padding: 25px;
-    font-size: 40px;
-
-    font-family: var(--secundary-font);
-    font-weight: 600;
-}
 
 input[type="checkbox"] {
     display: none;
@@ -191,13 +184,18 @@ label > i{
 
 .img-p-container > #img-sec{
     flex: 0 0 40%;
+    max-width: 600px;
+    max-height: 600px;
+    height: 200%;
+    width: 94%;
 }
 
+
 .img-p-container > p{
-    flex: 1;
+    flex: 10;
     margin-left: 20px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-top: -50px;
 }
 
@@ -206,15 +204,15 @@ label > i{
     justify-content: flex-start;
     flex-direction: row-reverse; 
     align-items: flex-start;
-    
+      
 }
 
 .img-p > p {
     flex: 1;
     margin-left: 60px;
     font-size: 38px;
-    font-weight: 500;
-    margin-right: px;
+    font-weight: 500px;
+    margin-right: 30px;
 }
 .img-p> #img-ter{
     flex: 0 0 40%;
@@ -786,7 +784,7 @@ article a:hover {
         border: 1px solid rgb(27, 25, 25);
     }
 
-    .img-home {
+    .img-hom {
         background-size: cover;
         background-attachment: scroll;
         width: 90%;
